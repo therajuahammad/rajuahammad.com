@@ -4,6 +4,10 @@
   "version": "1.0.0",
   "description": "Portfolio Website with Node, Express and Pug",
   "main": "server.js",
+  "engines": {
+    "node": "12.10.0",
+    "yarn": "1.17.3"
+  },
   "scripts": {
     "build": "npx nodemon server.js",
     "start": "node server.js",
