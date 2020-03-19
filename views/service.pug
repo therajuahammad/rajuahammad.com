@@ -1,0 +1,15 @@
+.skill-area-bottom.section-padding
+  .container
+    .row
+      .col-md-12
+        .section-title
+          h2 My Services
+    .row
+      .col-md-12
+        .skill-bottom-content
+          each service in services
+            - var add = service.addClass ? "sin-skill-middle" : " ";
+            .single-skill-bottom(class=`${add}`)
+                h2 #{service.position}.
+                h3 #{service.title}
+                p #{service.desc}
