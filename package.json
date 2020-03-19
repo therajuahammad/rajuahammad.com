@@ -1,6 +1,5 @@
 {
-  "name": "myportfolionodejs",
-  "homepage": "http://rajuahammad.com/nodejs",
+  "name": "rajuahammad.com",
   "version": "1.0.0",
   "description": "Portfolio Website with Node, Express and Pug",
   "main": "server.js",
@@ -9,20 +8,17 @@
     "yarn": "1.17.3"
   },
   "scripts": {
-    "build": "npx nodemon server.js",
-    "start": "node server.js",
-    "devStart": "nodemon server.js"
+    "start": "node server.js"
   },
   "author": "Raju Ahammad",
   "license": "MIT",
   "dependencies": {
     "express": "^4.16.3",
-    "micromodal": "^0.4.2",
     "pug": "^2.0.3"
   },
   "devDependencies": {
     "nodemon": "^1.19.0"
   },
-  "repository": "https://github.com/rajuahammadfanz/myportfolionodejs.git",
+  "repository": "https://github.com/rajuahammadfans/rajuahammad.com.git",
   "private": true
 }
