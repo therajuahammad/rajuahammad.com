@@ -1,5 +1,6 @@
 {
   "name": "rajuahammad.com",
+  "homepage": "https://rajuahammad.com",
   "version": "1.0.0",
   "description": "Portfolio Website with Node, Express and Pug",
   "main": "server.js",
