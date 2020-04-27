@@ -132,7 +132,7 @@ body {
 /* ==== Header CSS Start ==== */
 
 #header-bottom {
-  background-image: url('../img/hero-bg.jpg');
+  background-image: url('../img/hero-bg-2.jpg');
   background-size: cover;
   background-position: center center;
   color: #fff;
@@ -356,7 +356,14 @@ nav.main-menu ul li a:hover {
   width: 40px;
 }
 
-
+.header-bottom.center{
+  text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
 /*Mian Menu CSS*/
 
 /* ==== Header CSS End ==== */

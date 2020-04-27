@@ -2,13 +2,13 @@
     "services":[
         {
             "position": "01",
-            "title": "WP Theme Development",
-            "desc": "I do create a full Wordpress theme from Scratch, HTML to Wordpress theme, create a website with custom design, Add any functionality to an existing theme, Generate Custom Shortcode."
+            "title": "Web Application",
+            "desc": "I do create a full web apps using Modern technology like Node JS, Mongoose, React JS etc from PSD, Sketch or any platform"
         },
         {
             "position": "02",
             "title": "Front End Development",
-            "desc": "Front-end web development is the practice of converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data.",
+            "desc": "Front-end web development is the practice of converting data to a graphical interface, through the use of HTML, CSS, & JavaScript Framework, so that users can view and interact with that data.",
             "addClass": true
         },
         {
