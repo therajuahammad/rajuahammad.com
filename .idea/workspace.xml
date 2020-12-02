@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3f6f8b60-a59b-40d4-9f17-ef93a52ddc46" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/about.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/portfolio.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/services.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/social-icon.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/welcome.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package - Copy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/cv.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/about.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/call-to-action.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/footer.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/gtag.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/head.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/header.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/hero-area.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/modal.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/portfolio.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/preloader.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/service.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1l48COo8cv65Xquzep8a8CgPiqG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3f6f8b60-a59b-40d4-9f17-ef93a52ddc46" name="Default Changelist" comment="" />
+      <created>1606844883334</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606844883334</updated>
+      <workItem from="1606844889639" duration="51000" />
+    </task>
+    <servers />
+  </component>
+</project>

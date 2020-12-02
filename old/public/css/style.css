@@ -91,7 +91,7 @@ body,
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 14px;
   letter-spacing: 0.4px;
@@ -124,6 +124,7 @@ body {
   height: 120px;
 }
 
+
 /*==========================================
   Author CSS
 ==========================================*/
@@ -131,7 +132,7 @@ body {
 /* ==== Header CSS Start ==== */
 
 #header-bottom {
-  /* background-image: url('../img/hero-bg-2.jpg'); */
+  background-image: url('../img/hero-bg-2.jpg');
   background-size: cover;
   background-position: center center;
   color: #fff;
@@ -141,14 +142,8 @@ body {
 }
 
 #header-bottom::after {
-  background: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(#17d396),
-    to(#07f7f7)
-  );
-  background: linear-gradient(to right, #17d396, #07f7f7);
+  background: -webkit-gradient(linear, left top, right top, from(#17D396), to(#07F7F7));
+  background: linear-gradient(to right, #17D396, #07F7F7);
   content: "";
   height: 100%;
   left: 0;
@@ -171,14 +166,8 @@ body {
 }
 
 #header-area.fixtopmenu {
-  background: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(#17d396),
-    to(#07f7f7)
-  );
-  background: linear-gradient(to right, #17d396, #07f7f7);
+  background: -webkit-gradient(linear, left top, right top, from(#17D396), to(#07F7F7));
+  background: linear-gradient(to right, #17D396, #07F7F7);
   -webkit-box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.27);
   box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.27);
   padding: 20px 0;
@@ -192,6 +181,7 @@ body {
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
+
 
 .open-btn {
   cursor: pointer;
@@ -273,7 +263,7 @@ body {
 }
 
 .header-bottom h3 {
-  margin-left: -6px !important;
+  margin-left: -6px!important;
 }
 
 .header-bottom h1 {
@@ -296,6 +286,7 @@ body {
   font-weight: 400;
   margin-top: 20px;
 }
+
 
 /*Mian Menu CSS*/
 
@@ -328,7 +319,7 @@ nav.main-menu ul {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%)
 }
 
 nav.main-menu ul li {
@@ -347,12 +338,12 @@ nav.main-menu ul li a {
 }
 
 nav.main-menu ul li a:hover {
-  color: #17d396;
+  color: #17D396;
 }
 
 .menu-close-btn {
   background-color: transparent;
-  /* background-image: url("../img/cross.png"); */
+  background-image: url("../img/cross.png");
   background-position: center center;
   background-size: cover;
   border: medium none;
@@ -365,13 +356,13 @@ nav.main-menu ul li a:hover {
   width: 40px;
 }
 
-.header-bottom.center {
+.header-bottom.center{
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 /*Mian Menu CSS*/
 
@@ -382,6 +373,8 @@ nav.main-menu ul li a:hover {
 #about-area {
   background-color: #22252c;
 }
+
+
 
 .about-thum-area .about-img {
   height: 385px;
@@ -409,13 +402,7 @@ nav.main-menu ul li a:hover {
 }
 
 .resume-btn a {
-  background: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(#17d396),
-    to(#07f7f7)
-  );
+  background: -webkit-gradient(linear, left top, right top, from(#17d396), to(#07f7f7));
   background: linear-gradient(to right, #17d396, #07f7f7);
   -webkit-box-shadow: 0 0 20px rgba(22, 213, 156, 0.7);
   box-shadow: 0 0 20px rgba(22, 213, 156, 0.7);
@@ -458,6 +445,7 @@ nav.main-menu ul li a:hover {
   text-transform: uppercase;
 }
 
+
 /* ==== About Area CSS End ==== */
 
 /* ==== Service Area CSS Start ==== */
@@ -472,7 +460,7 @@ nav.main-menu ul li a:hover {
 }
 
 .single-skill-bottom {
-  background-color: #22252c;
+  background-color: #22252C;
   float: left;
   height: 350px;
   padding: 30px;
@@ -516,6 +504,7 @@ nav.main-menu ul li a:hover {
   color: #07463e;
 }
 
+
 /* ==== Service Area CSS End ==== */
 
 /* ==== Portfolio Area CSS Start ==== */
@@ -525,7 +514,7 @@ nav.main-menu ul li a:hover {
 }
 
 .portfolio-container {
-  /* background-image: url("../img/portfolio/port-bg.jpg"); */
+  background-image: url("../img/portfolio/port-bg.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -638,6 +627,7 @@ nav.main-menu ul li a:hover {
   -webkit-transition: 0.4s;
   transition: 0.4s;
   opacity: 0;
+
 }
 
 .port-meta h4 {
@@ -674,6 +664,7 @@ nav.main-menu ul li a:hover {
   color: #ffffff;
 }
 /* ==== Portfolio Area CSS End ==== */
+
 
 /* ==== Message CSS Start ==== */
 
@@ -794,15 +785,9 @@ nav.main-menu ul li a:hover {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   position: relative;
-  -o-border-image: linear-gradient(to right, #17d396, #07f7f7);
-  border-image: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(#17d396),
-    to(#07f7f7)
-  );
-  border-image: linear-gradient(to right, #17d396, #07f7f7);
+  -o-border-image: linear-gradient(to right, #17D396, #07F7F7);
+  border-image: -webkit-gradient(linear, left top, right top, from(#17D396), to(#07F7F7));
+  border-image: linear-gradient(to right, #17D396, #07F7F7);
   border-image-width: 1px;
   border-image-slice: 1;
 }
@@ -893,8 +878,8 @@ nav.main-menu ul li a:hover {
   padding: 10px;
 }
 
-#contactForm .alert-success {
-  color: #00f29a;
+#contactForm  .alert-success {
+  color: #00F29A;
   background-color: #313741;
   border-color: #313741;
 }
@@ -907,7 +892,7 @@ nav.main-menu ul li a:hover {
   margin-right: 40px;
   border-radius: 50%;
   color: #fff;
-  background: #17d397;
+  background: #17D397;
   opacity: 1;
 }
 
@@ -970,6 +955,7 @@ footer#footer-area {
   margin: 60px 0 30px;
 }
 
+
 /* ==== Footer CSS End ==== */
 
 /* ==== Back To Top CSS Start ==== */
@@ -983,14 +969,8 @@ div#scroll {
 }
 
 #scroll a {
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#17d396),
-    to(#07f7f7)
-  );
-  background: linear-gradient(#17d396, #07f7f7);
+  background: -webkit-gradient(linear, left top, left bottom, from(#17D396), to(#07F7F7));
+  background: linear-gradient(#17D396, #07F7F7);
   border-radius: 50%;
   color: #fff;
   display: inline-block;
@@ -1001,14 +981,8 @@ div#scroll {
 }
 
 #scroll a:hover {
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#07f7f7),
-    to(#17d396)
-  );
-  background: linear-gradient(#07f7f7, #17d396);
+  background: -webkit-gradient(linear, left top, left bottom, from(#07F7F7), to(#17D396));
+  background: linear-gradient(#07F7F7, #17D396);
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -1021,6 +995,7 @@ div#scroll {
   text-align: center;
   vertical-align: middle;
 }
+
 
 /* ==== Back To Top CSS End ==== */
 
@@ -1042,27 +1017,27 @@ body.preloader-active {
   height: 100%;
   left: 0;
   top: 0;
-  background: rgba(0, 0, 0, 0.65);
+  background: rgba(0,0,0,0.65);
   -webkit-transition: 0.4s;
   transition: 0.4s;
   z-index: 999999;
 }
 
 .preloader-spinner {
-  background-color: #222;
-  border-radius: 4px;
-  height: 80px;
-  left: 50%;
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  width: 80px;
+background-color: #222;
+border-radius: 4px;
+height: 80px;
+left: 50%;
+position: absolute;
+top: 50%;
+transform: translate(-50%, -50%);
+width: 80px;
 }
 
 .preloader-spinner img {
-  height: auto;
-  margin: auto;
-  width: auto;
+height: auto;
+margin: auto;
+width: auto;
 }
 
 /* ==== Preloader CSS End ==== */
@@ -1090,6 +1065,6 @@ body.preloader-active {
 }
 
 /* ==== Scrollbar CSS End ==== */
-.visually-hidden {
+.visually-hidden { 
   display: none;
 }
