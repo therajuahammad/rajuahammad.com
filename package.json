@@ -1,17 +1,21 @@
 {
   "name": "rajuahammad.com",
-  "version": "0.1.0",
-  "private": true,
+  "homepage": "https://rajuahammad.com",
+  "version": "1.0.0",
+  "description": "Portfolio Website with Node, Express and Pug",
+  "main": "server.js",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+    "start": "node server.js"
   },
+  "author": "Raju Ahammad",
+  "license": "MIT",
   "dependencies": {
-    "bootstrap": "^4.5.3",
-    "font-awesome": "^4.7.0",
-    "next": "10.0.1",
-    "react": "17.0.1",
-    "react-dom": "17.0.1"
-  }
+    "express": "^4.16.3",
+    "pug": "^2.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  },
+  "repository": "https://github.com/therajuahammad/rajuahammad.com.git",
+  "private": true
 }
