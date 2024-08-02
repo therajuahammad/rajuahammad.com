@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="I am a software engineer with 5+ years of experience in the industry. I have worked on many different projects with a wide variety of technologies and programming languages. I have built a fully responsive web application from scratch using the React.js and Vue.js framework. I am comfortable with HTML and CSS and have experience with JavaScript. I know how to use frameworks such as React.js, Vue.js and Next.js and implementation API such as RESTAPI and GraphQL"
+    />
+    <meta
+      name="keywords"
+      content="Frontend Deceloper, React Developer, JavaScript, React.js, Next.js, Vue.js, Nuxt.js, Redux.js, Nodejs, styled Components, Tailwind CSS, HTML, CSS, Bootstrap"
+    />
+    <meta name="author" content="Raju Ahammad" />
+    <title>
+      Raju Ahammad - An experienced Frontend Developer, React Developer based in
+      Dhaka, Bangladesh
+    </title>
+
+    <style type="text/css">
+      .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        -webkit-clip-path: inset(50%);
+        clip-path: inset(50%);
+        border: 0;
+      }
+
+      #external-content .topnav,
+      #external-content .mobile-nav {
+        display: none;
+      }
+
+      [title="Hosted on free web hosting 000webhost.com. Host your own website for FREE."] {
+        display: none;
+      }
+
+      .loader {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        z-index: 99;
+        transform: translate(-50%);
+        --r1: 154%;
+        --r2: 68.5%;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: radial-gradient(
+            var(--r1) var(--r2) at top,
+            #0000 79.5%,
+            #766df4 80%
+          ),
+          radial-gradient(
+            var(--r1) var(--r2) at bottom,
+            #766df4 79.5%,
+            #0000 80%
+          ),
+          radial-gradient(var(--r1) var(--r2) at top, #0000 79.5%, #766df4 80%),
+          #e4e4ed;
+        background-size: 50.5% 220%;
+        background-position: -100% 0%, 0% 0%, 100% 0%;
+        background-repeat: no-repeat;
+        animation: p9 2s infinite linear;
+      }
+      @keyframes p9 {
+        33% {
+          background-position: 0% 33%, 100% 33%, 200% 33%;
+        }
+        66% {
+          background-position: -100% 66%, 0% 66%, 100% 66%;
+        }
+        100% {
+          background-position: 0% 100%, 100% 100%, 200% 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="sr-only">
+      Raju Ahammad - A experienced Frontend Developer, React Developer based in
+      Dhaka, Bangladesh
+    </h1>
+    <h2 class="sr-only">
+      Skills: Frontend Deceloper, React Developer, JavaScript, React.js,
+      Next.js, Vue.js, Nuxt.js, Redux.js, Nodejs, styled Components, Tailwind
+      CSS, HTML, CSS, Bootstrap
+    </h2>
+
+    <div class="loader"></div>
+
+    <div id="external-content"></div>
+
+    <script>
+      fetch("https://test.cors.workers.dev/?https://about.me/rajuahammad", {
+        headers: {
+          "Access-Control-Allow-Origin": "*"
+        }
+      })
+        .then((response) => response.text())
+        .then((data) => {
+          document.querySelector(".loader").style.display = "none";
+          document.getElementById("external-content").innerHTML = data;
+        })
+        .catch((error) => {
+          console.error("Error:", error);
+        });
+    </script>
+  </body>
+</html>
